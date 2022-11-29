@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlockStone : Block
+public class BlockJello : Block
 {
     void Start()
     {
-        endurance = 5;
+        endurance = 2;
     }
 
     public override void BallBounce()
