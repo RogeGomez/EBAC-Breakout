@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     {
         // MoveWithKeyboard();
         // MoveWithMouse();
-        // MoveWithControl();
+        MoveWithControl();
     }
 
     // Mueve el paddle con el teclado, ya sea con las flechas o con las teclas a, d
@@ -66,7 +66,6 @@ public class Player : MonoBehaviour
 
     void MoveWithControl()
     {
-        // transform.Translate(Input.GetAxis("Horizontal") * Vector3.down * paddleSpeed * Time.deltaTime);
         transform.Translate(Input.GetAxis("Horizontal") * Vector3.down * paddleSpeed * Time.deltaTime);
     }
 }
