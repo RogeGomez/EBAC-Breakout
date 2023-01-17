@@ -115,7 +115,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!114 &3727812311815841847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,4 +129,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limitX: 23
-  speedLimit: 5
+  paddleSpeed: 20

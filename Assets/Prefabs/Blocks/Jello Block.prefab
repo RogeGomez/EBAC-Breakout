@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5108597377752197018}
   - component: {fileID: -1948993307211971325}
   m_Layer: 0
-  m_Name: Block Jello
+  m_Name: Jello Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
